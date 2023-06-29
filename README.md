@@ -1,2 +1,12 @@
-# ocp4-nodeconfig-canary-rollout
-Repo with the step by step guide to test and perform a Machine Config to the OCP nodes using a Canary Rollout approach
+# Apply OCP4 node configuration via MachineConfig using a Canary Rollout approach
+
+
+
+
+
+
+## License
+
+This work is under [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+Please read the [LICENSE](LICENSE) file for more details.
