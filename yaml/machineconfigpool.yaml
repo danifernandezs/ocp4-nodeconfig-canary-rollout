@@ -1,0 +1,17 @@
+---
+apiVersion: machineconfiguration.openshift.io/v1
+kind: MachineConfigPool
+metadata:
+  name: worker-config-test
+spec:
+  machineConfigSelector:
+    matchExpressions:
+    - key: machineconfiguration.openshift.io/role
+      operator: In
+      values:
+      - worker
+      - testing
+  nodeSelector:
+    matchLabels:
+      node-role.kubernetes.io/testing: ""
+  paused: false
